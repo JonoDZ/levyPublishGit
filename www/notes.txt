@@ -1,0 +1,52 @@
+http://www.istockphoto.com/search/lightbox/15152998/#9a8e86a
+fingers ^^
+
+
+
+notes
+Blue 1: light, bright, #00a8ff
+Blue 2: slight darker #0080c4
+
+
+
+
+
+Orange 1: #f9b233
+Orange 2: darker #ffaa00
+
+
+
+
+ 
+	<!-- Navigation -->
+    <div id="navigation" class="navbar navbar-fixed-top">
+		<div class="navbar-inner ">
+        	<div class="container no-padding">
+				
+					<a class="show-menu" data-toggle="collapse" data-target=".nav-collapse">
+						<span class="show-menu-bar"></span>
+					</a>
+                    
+					<!--<div id="logo"><a class="external" href="index.html"></a></div> -->
+					<div class="nav-collapse collapse">
+						<ul class="nav">
+							<li class="menu-1"><a class="colapse-menu1" href="#we-are-newave">What we do</a></li>
+							<li class="menu-2"><a class="colapse-menu1" href="#we-are-good-at">How we do it</a></li>
+                            <li class="menu-3"><a class="colapse-menu1" href="#services">Jobs</a></li>
+							<li class="menu-4"><a class="colapse-menu1" href="#our-team">Who we are</a></li>
+							<li class="menu-5"><a class="colapse-menu1" href="#contact-parallax">Become a Levyite</a></li>
+							<li class="menu-6"><a class="colapse-menu1" href="home">home</a></li>
+                            <!--li class="dropdown menu-7"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Blog</a>
+                            	<ul class="dropdown-menu">
+                                  <li><a class="external" href="blog.html">Blog standard</a></li>
+                                  <li><a class="external" href="blog-masonry.html">Blog Masonry</a></li>
+                                  <li><a class="external" href="blog-post.html">Blog post page </a></li>
+                                </ul>
+                            </li>
+                            <li class="menu-8"><a class="external" href="shortcodes.html">Shortcodes</a></li>-->
+						</ul>
+					</div>
+				</div>
+			</div>
+	</div>
+    <!--/Navigation -->
