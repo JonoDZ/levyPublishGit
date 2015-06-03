@@ -95,38 +95,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "index.html",
-			"settings":
-			{
-				"buffer_size": 38740,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "js/scripts.js",
-			"settings":
-			{
-				"buffer_size": 13405,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "indexREDUNDANT",
-			"settings":
-			{
-				"buffer_size": 46943,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "style.css",
-			"settings":
-			{
-				"buffer_size": 64655,
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "Packages/User/HTML chrome.sublime-build",
 	"build_system_choices":
@@ -160,10 +128,14 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/jzac9_000/Documents/work/Web Design/Levy/LevyPublish/www"
+		"/C/Users/jzac9_000/Documents/work/Web Design/Levy/levyPublishGit/www"
 	],
 	"file_history":
 	[
+		"/C/Users/jzac9_000/Documents/work/Web Design/Levy/levyPublishGit/www/index.html",
+		"/C/Users/jzac9_000/Documents/work/Web Design/Levy/levyPublishGit/www/js/scripts.js",
+		"/C/Users/jzac9_000/Documents/work/Web Design/Levy/levyPublishGit/www/indexREDUNDANT",
+		"/C/Users/jzac9_000/Documents/work/Web Design/Levy/levyPublishGit/www/style.css",
 		"/C/Users/jzac9_000/Documents/work/Web Design/Levy 1/www/notes.txt",
 		"/C/Users/jzac9_000/Documents/work/Web Design/Levy 1/www/js/image-cycle1.js",
 		"/C/Users/jzac9_000/Documents/work/Web Design/Levy 1/www/css/colors/color-blue.css",
@@ -208,6 +180,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"@levy",
 			"Pharm",
 			"pharm",
 			"SkillITT",
@@ -293,127 +266,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 38740,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								6200,
-								6200
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 2205.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "js/scripts.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 13405,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								7690,
-								7690
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 4429.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "indexREDUNDANT",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 46943,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								36561,
-								36561
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1470.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "style.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 64655,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								5555,
-								5563
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 4999.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				}
 			]
 		}
 	],
