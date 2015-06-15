@@ -324,7 +324,7 @@
 
 #banner_area img 
 {
-    display:none;
+    display: none;
     position: absolute;
 }
 
@@ -340,6 +340,10 @@
 }
 
 #levyLogo {
+	height: 99vh;
+}
+
+#levyLogo1 {
 	height: 300px;
 }
 

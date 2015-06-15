@@ -308,7 +308,26 @@ $(window).load(function(){
 
 
   
-//Google Map					
+//Google Map		
+
+
+ var map,map2;
+
+  //function initialize(condition) {
+  // create the map
+
+var myOptions = {
+    zoom: 14,
+    center: new google.maps.LatLng(0.0, 0.0),
+    mapTypeId: google.maps.MapTypeId.ROADMAP
+  }
+   
+//}
+
+
+
+
+	
 	var latlng = new google.maps.LatLng(51.750617,-0.3397426);
 	var settings = {
 		zoom: 16,
@@ -320,9 +339,14 @@ $(window).load(function(){
 		navigationControl: false,
 		navigationControlOptions: {style: google.maps.NavigationControlStyle.SMALL},
 		mapTypeId: google.maps.MapTypeId.ROADMAP};
-	
+
+	 map = new google.maps.Map(document.getElementById("map_canvas"),
+                                settings);
+
+    map2 = new google.maps.Map(document.getElementById("map_canvas2"),
+                                   settings);  
 		
-	var map = new google.maps.Map(document.getElementById("map_canvas"), settings);
+	//var map = new google.maps.Map(document.getElementById("map_canvas"), settings);
 	
 	google.maps.event.addDomListener(window, "resize", function() {
 		var center = map.getCenter();
@@ -333,9 +357,8 @@ $(window).load(function(){
 	var contentString = '<div id="content">'+
 		'<div id="siteNotice">'+
 		'</div>'+
-		'<h3 id="firstHeading" class="firstHeading">NEWAVE</h3>'+
+		'<h3 id="firstHeading" class="firstHeading">Levy Associates</h3>'+
 		'<div id="bodyContent">'+
-		'<p>Here we are. Come to drink a coffee!</p>'+
 		'</div>'+
 		'</div>';
 	var infowindow = new google.maps.InfoWindow({
@@ -356,7 +379,7 @@ $(window).load(function(){
 		position: companyPos,
 		map: map,
 		icon: companyImage,               
-		title:"Creative News",
+		title:"Levy Associates",
 		zIndex: 3});
 	
 	
