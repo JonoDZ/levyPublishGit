@@ -21,6 +21,7 @@ ChangeLog:
 			a. on:hover - "Levy Associates"
 			b. on:click - "Levy Associates"
 [DONE] Canary Warf Image
+[DONE] Social Media links to open in new Tab
 
 === Outstanding ===
 
