@@ -301,7 +301,6 @@
 }
 
 
-
 #levyiteBanner {
 	width: 100%;
 	height: auto;
@@ -322,10 +321,17 @@
 	padding-top: 80px;
 }
 
+#homeImg1 {
+	height: 100px;
+	width: auto;
+}
+
 #banner_area img 
 {
     display: none;
     position: absolute;
+       /*width: auto;
+    height: auto; */
 }
 
 #banner_area img:first-child 
@@ -335,8 +341,7 @@
 
 #banner_area > img /* Use this to resize all image's container */
 {
-    width: 100%;
-    
+
 }
 
 #levyLogo {
