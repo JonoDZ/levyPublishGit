@@ -271,6 +271,35 @@
 ////////////////////////////////////////////*/
 	/*/////////////// Marry ups //////////////*/
 
+
+#jobBoardBarDiv {
+ 
+height: 100px;
+width: 100%;
+background-color: #aaa;
+opacity: .5;
+float: left;
+z-index: 10;
+margin-top: 25%;
+
+
+}
+
+#jobBoardSearch {
+
+}
+
+#jobBoardBarInput {
+
+}
+
+.jobBoardBarSpan {
+
+
+
+}
+
+
 .AreaBlock1, .AreaBlock2, .AreaBlock3, .AreaBlock4{
 	height: auto;
 	padding-top: 15px;
@@ -349,7 +378,7 @@
 }
 
 #levyLogo1 {
-	height: 300px;
+	height: 200px;
 }
 
 .levyLogoID {
