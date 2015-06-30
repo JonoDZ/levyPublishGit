@@ -282,6 +282,7 @@ float: left;
 z-index: 10;
 margin-top: 100px;
 
+
 }
 
 .jobBoardSearchSpan {
@@ -301,7 +302,13 @@ width: auto;
 width: auto;
 }
 
-
+#sponsor {
+	position: absolute;
+	bottom: 0;
+	right: 15px;
+	padding-bottom: 15px;
+	height: 60px
+}
 
 
 .AreaBlock1, .AreaBlock2, .AreaBlock3, .AreaBlock4{
@@ -359,12 +366,17 @@ width: auto;
 	width: auto;
 }
 
+
 #banner_area img 
 {
     display: none;
     position: absolute;
        /*width: auto;
     height: auto; */
+}
+
+.stacker {
+	position: relative;
 }
 
 #banner_area img:first-child 
@@ -377,11 +389,11 @@ width: auto;
 
 }
 
-#levyLogo {
-	height: 99vh;
+#levyLogoDiv {
+	height: 320px;
 }
 
-#levyLogo1 {
+#levyLogo {
 	height: 200px;
 }
 
@@ -454,7 +466,7 @@ h5.text-right {
 	font-size: 40px;
 }
 
-#levyLogo {
+#levyLogoDiv {
 	left: 50%;
 	padding-left: -281px;
 	margin-top: -40px;
@@ -1156,6 +1168,7 @@ h5.text-right {
 		height: 100%;
 		position: relative;
 		width: 100%;
+		margin-top: -45px;
 	}
 	
 	#not-found {
@@ -1243,15 +1256,15 @@ h5.text-right {
 	}
 		
 	#home-center {
-		height: 100%;  
+		height: auto;  
 		display: table;
 		position: absolute;
-		top: 0;
+		top: 10vh;
 		left:0;
 		right:0;
-		width:90%;
-		margin-left:5%;
-		margin-right:5%;
+		width:100vw;
+		margin-left:0;
+		margin-right:0;
 		z-index: 10;
 	}	
 	
@@ -1260,6 +1273,7 @@ h5.text-right {
 		vertical-align: middle;
 		text-align: center;
 	}
+
 	.div-align-center1 {
 		text-align:center;
 	}
@@ -1759,6 +1773,7 @@ h5.text-right {
     	font-weight: 400;
 	}
 	
+
 	.twitter-feed p {
 		opacity:0.5;
 	}
@@ -3928,7 +3943,7 @@ h5.text-right {
 
 @media only screen and (max-width: 767px) {
 
-#levyLogo {
+#levyLogoDiv {
 	width: 400px;
 	height: auto;
 }
@@ -4091,7 +4106,7 @@ h5.text-right {
 
 @media only screen and (max-width: 479px) {
 
-#levyLogo {
+#levyLogoDiv {
 	width: 300px;
 	height: auto;
 }
