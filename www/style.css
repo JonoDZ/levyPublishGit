@@ -277,37 +277,50 @@
 height: 70px;
 width: 100%;
 background-color: #000;
-opacity: .3;
+opacity: .5;
 float: left;
 z-index: 10;
 margin-top: 100px;
-
-
+line-height: 70px;
 }
 
 .jobBoardSearchSpan {
+position: relative;
 border-style: solid;
 border-width: 1px;
 border-color: #aaa;
 font-size: 2em;
-top: 50%;
-margin-top: -15px;
+
 }
 
 #jobBoardSearch {
 width: auto;
+opacity: 1;
+position:relative;
+padding:6px 15px;
+border:0px solid #207cca;
+background-color:#207cca;
+color:#fafafa;
 }
 
-#jobBoardBarInput {
-width: auto;
+#jobBoardSearch a {
+	color:#fafafa;
+}
+
+#jobBoardInput {
+position:relative;
+padding:6px 15px;
+border:0px solid #ddd;
+background-color:#ddd;
+color:#444;
 }
 
 #sponsor {
-	position: absolute;
-	bottom: 0;
-	right: 15px;
-	padding-bottom: 15px;
-	height: 60px
+position: absolute;
+bottom: 0;
+right: 15px;
+padding-bottom: 15px;
+height: 60px
 }
 
 
@@ -401,6 +414,19 @@ width: auto;
 	height: 50px;
 	width: 50px;
 }
+
+.levyLogoIDHome {
+	height: 50px;
+	width: 50px;
+
+	margin-top: -10px;
+}
+#levyLogoIDTwitter {
+
+	margin-left: 30px;
+	
+}
+
 
 #we-are-newave1.container {
 	padding-bottom: 0px;
