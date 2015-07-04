@@ -327,8 +327,9 @@ var myOptions = {
 
 
 
-	
+	//map_canvas
 	var latlng = new google.maps.LatLng(51.750617,-0.3397426);
+
 	var settings = {
 		zoom: 16,
 		center: new google.maps.LatLng(51.750617,-0.3397426), mapTypeId: google.maps.MapTypeId.ROADMAP,
@@ -340,14 +341,9 @@ var myOptions = {
 		navigationControlOptions: {style: google.maps.NavigationControlStyle.SMALL},
 		mapTypeId: google.maps.MapTypeId.ROADMAP};
 
-	 map = new google.maps.Map(document.getElementById("map_canvas"),
+ map = new google.maps.Map(document.getElementById("map_canvas"),
                                 settings);
 
-    map2 = new google.maps.Map(document.getElementById("map_canvas2"),
-                                   settings);  
-		
-	//var map = new google.maps.Map(document.getElementById("map_canvas"), settings);
-	
 	google.maps.event.addDomListener(window, "resize", function() {
 		var center = map.getCenter();
 		google.maps.event.trigger(map, "resize");
@@ -357,7 +353,7 @@ var myOptions = {
 	var contentString = '<div id="content">'+
 		'<div id="siteNotice">'+
 		'</div>'+
-		'<h3 id="firstHeading" class="firstHeading">Levy Associates</h3>'+
+		'<h3 id="firstHeading" class="firstHeading">Levy Associates UK</h3>'+
 		'<div id="bodyContent">'+
 		'</div>'+
 		'</div>';
@@ -379,7 +375,68 @@ var myOptions = {
 		position: companyPos,
 		map: map,
 		icon: companyImage,               
-		title:"Levy Associates",
+		title:"Levy Associates UK",
+		zIndex: 3});
+	
+	
+	
+	google.maps.event.addListener(companyMarker, 'click', function() {
+		infowindow.open(map,companyMarker);
+	});
+
+
+ 	//map_canvas2
+	var latlng2 = new google.maps.LatLng(52.3111339,4.9462308);
+
+	var settings2 = {
+		zoom: 16,
+		center: new google.maps.LatLng(52.3111339,4.9462308), mapTypeId: google.maps.MapTypeId.ROADMAP,
+		mapTypeControl: false,
+		scrollwheel: false,
+		draggable: true,
+		mapTypeControlOptions: {style: google.maps.MapTypeControlStyle.DROPDOWN_MENU},
+		navigationControl: false,
+		navigationControlOptions: {style: google.maps.NavigationControlStyle.SMALL},
+		mapTypeId: google.maps.MapTypeId.ROADMAP};
+
+    map2 = new google.maps.Map(document.getElementById("map_canvas2"),
+                                   settings2);  
+		
+
+
+	
+	google.maps.event.addDomListener(window, "resize", function() {
+		var center = map2.getCenter();
+		google.maps.event.trigger(map2, "resize");
+		map2.setCenter(center);
+	});
+	
+	var contentString = '<div id="content">'+
+		'<div id="siteNotice">'+
+		'</div>'+
+		'<h3 id="firstHeading" class="firstHeading">Levy Associates NL</h3>'+
+		'<div id="bodyContent">'+
+		'</div>'+
+		'</div>';
+	var infowindow = new google.maps.InfoWindow({
+		content: contentString
+	});
+	
+	var companyImage = new google.maps.MarkerImage('images/marker.png',
+		new google.maps.Size(58,63),<!-- Width and height of the marker -->
+		new google.maps.Point(0,0),
+		new google.maps.Point(35,20)<!-- Position of the marker -->
+	);
+	
+	
+	
+	var companyPos = new google.maps.LatLng(52.3111339,4.9462308);
+	
+	var companyMarker = new google.maps.Marker({
+		position: companyPos,
+		map: map2,
+		icon: companyImage,               
+		title:"Levy Associates NL",
 		zIndex: 3});
 	
 	
@@ -389,7 +446,6 @@ var myOptions = {
 	});
 
 });
-
 
 
 
