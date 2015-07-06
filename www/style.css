@@ -1484,47 +1484,47 @@ margin-right: 20px;
 
 @media only screen and (max-width: 479px) {
 
-#levyLogoDiv {
-	width: 300px;
-	height: auto;
-}
+	#levyLogoDiv {
+		width: 300px;
+		height: auto;
+	}
 
-.AreaBlock1, .AreaBlock2, .AreaBlock3, .AreaBlock4{
-	height: auto;
-	padding-top: 15px;
-}
+	.AreaBlock1, .AreaBlock2, .AreaBlock3, .AreaBlock4{
+		height: auto;
+		padding-top: 15px;
+	}
 
-.SkillBlock1, .SkillBlock2, .SkillBlock3, .SkillBlock4, .SkillBlock5, .SkillBlock6 {
-	height: auto;
-}
+	.SkillBlock1, .SkillBlock2, .SkillBlock3, .SkillBlock4, .SkillBlock5, .SkillBlock6 {
+		height: auto;
+	}
 
-.SkillITText {
-	width: 220px;
-	padding-right: 0px;
-	padding-left: 10px;
-}
+	.SkillITText {
+		width: 220px;
+		padding-right: 0px;
+		padding-left: 10px;
+	}
 
-.SkillITLogo {
-	width: 40px;
-	padding-right: 0px;
+	.SkillITLogo {
+		width: 40px;
+		padding-right: 0px;
 
-}
+	}
 
-.teamWrap {
-	width: 90%;
-	margin: 0 auto;
-	padding-bottom: 50px;
-}
+	.teamWrap {
+		width: 90%;
+		margin: 0 auto;
+		padding-bottom: 50px;
+	}
 
-.teamWrapPic {
-	width: 230px;
-	margin: 0 auto;
-}
+	.teamWrapPic {
+		width: 230px;
+		margin: 0 auto;
+	}
 
-.teamWrapPic img {
-	width: 230px;
-	margin: 0 auto;
-}
+	.teamWrapPic img {
+		width: 230px;
+		margin: 0 auto;
+	}
 	
 	.container {
 		width:280px;
