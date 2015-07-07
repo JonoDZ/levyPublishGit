@@ -1013,35 +1013,35 @@ margin-right: 20px;
 	
 	/*/////////////// Marry ups //////////////*/
 
-.AreaBlock1, .AreaBlock2, .AreaBlock3, .AreaBlock4{
-	height: auto;
-	padding-top: 15px;
-}
+	.AreaBlock1, .AreaBlock2, .AreaBlock3, .AreaBlock4{
+		height: auto;
+		padding-top: 15px;
+	}
 
-.SkillBlock1, .SkillBlock2, .SkillBlock3, .SkillBlock4, .SkillBlock5, .SkillBlock6 {
-	height: auto;
-	margin-bottom: 20px;
-}
+	.SkillBlock1, .SkillBlock2, .SkillBlock3, .SkillBlock4, .SkillBlock5, .SkillBlock6 {
+		height: auto;
+		margin-bottom: 20px;
+	}
 
-.SkillITText {
-	width: 503px;
-	padding-left: 19px;
+	.SkillITText {
+		width: 503px;
+		padding-left: 19px;
 
-}
+	}
 
-.teamWrapPic {
-	width: 180px;
-	margin: 0 auto;
-}
+	.teamWrapPic {
+		width: 180px;
+		margin: 0 auto;
+	}
 
-.teamWrapPic img {
-	width: 180px;
-	margin: 0 auto;
-}
+	.teamWrapPic img {
+		width: 180px;
+		margin: 0 auto;
+	}
 
-.teamText {
-	padding: 0px 10px 0px 10px;
-}
+	.teamText {
+		padding: 0px 10px 0px 10px;
+	}
 
 	.container {
 		width:600px;
@@ -1129,57 +1129,11 @@ margin-right: 20px;
 	}
 	
 	.one_half {
-    	width: 100%;
-	}	
-
-	.one_third {
-		width: 100%;
-	}	
-
-	.one_fourth {
-		width: 100%;
-	}	
-
-	.one_fifth {
-		width: 100%;
-	}	
-
-	.one_sixth {
-		width: 100%;
-	}	
-
-	.two_fifth {
-		width: 100%;
-	}	
-
-	.two_fourth {
-		width: 100%;
-	}		
-
-	.two_third {
-		width: 100%;
-	}	
-
-	.three_fifth {
-		width: 100%;
-	}	
-
-	.three_fourth {
-		width: 100%;
-	}	
-
-	.four_fifth {
-		width: 100%;
-	}	
-
-	.five_sixth {
-		width: 100%;
-	}	
-
-	.one_half, .one_third, .two_third, .three_fourth, .one_fourth, .two_fourth, .one_fifth, .two_fifth, .three_fifth, .four_fifth, .one_sixth, .five_sixth {
-		margin-bottom: 20px;
+    	width: 100%;		
+    	margin-bottom: 20px;
 		margin-right: 0%;
 	}	
+
 	
 	.section-title {
 		width:100%;
