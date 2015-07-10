@@ -6,7 +6,6 @@
 		border:0;
 		outline:0;
 		padding:0;
-		margin:0;
 	}
 	
 	
@@ -20,8 +19,10 @@
 	}
 	
 	body{
-		overflow-x:hidden
+		overflow-x:hidden;
 	}
+
+	html {width: 100%}
 	
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 400;
@@ -174,7 +175,7 @@ float: left;
 	bottom: 0;
 	right: 15px;
 	padding-bottom: 15px;
-	height: 40px
+	height: 30px;
 }
 
 .AreaBlock1, .AreaBlock2, .AreaBlock3, .AreaBlock4{
@@ -203,6 +204,7 @@ float: left;
 #banner_area img 
 {
     display: none;
+    width: 80%;
     position: absolute;
 }
 
@@ -217,21 +219,26 @@ float: left;
 }
 
 #levyLogoDiv {
-	height: 320px;
+	position: absolute;
+	height: auto;
+	width: 100%;
+	margin-left: -50px;
 }
 
 #levyLogo {
+	position: absolute;
+	left: 50%;
+	margin-left: -195px;
 	margin-top: 0;
-	height: 260px;
+	width: 390px;
 }
-
 
 #jobBoardBarDiv {
 	height: auto;
 	width: 60px;
 	float: right;
-	z-index: 10;
-	margin-right: 20px;
+	margin: 0;
+	padding: 0;
 }
 
 .levyLogoIDHome {
@@ -262,13 +269,6 @@ float: left;
 }
 
 .SkillITText p {font-size: 13px;}
-
-#levyLogoDiv {
-	left: 50%;
-	padding-left: -281px;
-	margin-top: -40px;
-
-}
 
 #whatWeDoText {
 	padding-bottom: 20px;
@@ -311,13 +311,10 @@ float: left;
 	padding: 70px 0px 50px 0px;
 }
 
-
 .levyite {
-	
 	background-position: bottom;
 	background-size: 100%;
 	background-repeat: no-repeat;
-
 }
 
 .levyite p {
@@ -326,7 +323,6 @@ float: left;
 	font-weight: normal;
 	line-height: 30px;
 }
-
 
 
 /* Section pages styles */
@@ -1095,7 +1091,6 @@ float: left;
 		margin-right: 0%;
 	}	
 
-	
 	.section-title {
 		width:100%;
 	}
@@ -1210,9 +1205,6 @@ float: left;
 		padding-top:10px;
 	}
 	
-	
-	
-
 }
 
 
@@ -1388,11 +1380,7 @@ float: left;
 		font-size:100px;
 		line-height:100px;
 	}
-	
-	
-	
-	
-
+		
 }
 
 
