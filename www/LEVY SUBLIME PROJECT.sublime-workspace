@@ -96,10 +96,25 @@
 	"buffers":
 	[
 		{
+<<<<<<< HEAD
 			"file": "index.html",
 			"settings":
 			{
 				"buffer_size": 36492,
+=======
+			"file": "/C/Users/jzac9_000/Desktop/compare/newer/index.html",
+			"settings":
+			{
+				"buffer_size": 39249,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/jzac9_000/Desktop/compare/newer/style.css",
+			"settings":
+			{
+				"buffer_size": 65382,
+>>>>>>> 096d329cabb122801b8ec28c101393c2e22057e8
 				"line_ending": "Unix"
 			}
 		},
@@ -107,7 +122,27 @@
 			"file": "style.css",
 			"settings":
 			{
+<<<<<<< HEAD
 				"buffer_size": 23288,
+=======
+				"buffer_size": 23356,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/jzac9_000/Desktop/compare/older/index.html",
+			"settings":
+			{
+				"buffer_size": 39250,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/Users/jzac9_000/Desktop/compare/older/style.css",
+			"settings":
+			{
+				"buffer_size": 65233,
+>>>>>>> 096d329cabb122801b8ec28c101393c2e22057e8
 				"line_ending": "Unix"
 			}
 		}
@@ -148,12 +183,12 @@
 	],
 	"file_history":
 	[
-		"/C/Users/jzac9_000/Documents/work/Web Design/Levy/levyPublishGit/www/index.html",
-		"/C/Users/jzac9_000/Documents/work/Web Design/Levy/levyPublishGit/www/js/imgInsert.js",
+		"/C/Users/jzac9_000/Documents/work/Web Design/Levy/levyPublishGit/www/style.css",
 		"/C/Users/jzac9_000/Documents/work/Web Design/Levy/levyPublishGit/www/LEVY SUBLIME PROJECT.sublime-workspace",
+		"/C/Users/jzac9_000/Documents/work/Web Design/Levy/levyPublishGit/www/js/imgInsert.js",
+		"/C/Users/jzac9_000/Documents/work/Web Design/Levy/levyPublishGit/www/index.html",
 		"/C/Users/jzac9_000/Documents/work/Web Design/Levy/levyPublishGit/www/js/scripts.js",
 		"/C/Users/jzac9_000/Documents/work/Web Design/Levy/levyPublishGit/www/indexREDUNDANT",
-		"/C/Users/jzac9_000/Documents/work/Web Design/Levy/levyPublishGit/www/style.css",
 		"/C/Users/jzac9_000/Documents/work/Web Design/Levy 1/www/notes.txt",
 		"/C/Users/jzac9_000/Documents/work/Web Design/Levy 1/www/js/image-cycle1.js",
 		"/C/Users/jzac9_000/Documents/work/Web Design/Levy 1/www/css/colors/color-blue.css",
@@ -284,6 +319,7 @@
 	"groups":
 	[
 		{
+<<<<<<< HEAD
 			"selected": 0,
 			"sheets":
 			[
@@ -294,14 +330,123 @@
 					"settings":
 					{
 						"buffer_size": 36492,
+=======
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/Users/jzac9_000/Desktop/compare/newer/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 39249,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/Users/jzac9_000/Desktop/compare/newer/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 65382,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								16595,
+								16595
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 15965.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 23356,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5341,
+								5341
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 4163.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 3,
+					"file": "/C/Users/jzac9_000/Desktop/compare/older/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 39250,
+>>>>>>> 096d329cabb122801b8ec28c101393c2e22057e8
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+<<<<<<< HEAD
 								4767,
 								4767
+=======
+								0,
+								0
+>>>>>>> 096d329cabb122801b8ec28c101393c2e22057e8
 							]
 						],
 						"settings":
@@ -311,6 +456,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
+<<<<<<< HEAD
 						"translation.y": 1569.0,
 						"zoom_level": 1.0
 					},
@@ -330,14 +476,34 @@
 					"settings":
 					{
 						"buffer_size": 23288,
+=======
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/C/Users/jzac9_000/Desktop/compare/older/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 65233,
+>>>>>>> 096d329cabb122801b8ec28c101393c2e22057e8
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
+<<<<<<< HEAD
 								3781,
 								3781
+=======
+								16546,
+								16481
+>>>>>>> 096d329cabb122801b8ec28c101393c2e22057e8
 							]
 						],
 						"settings":
@@ -346,10 +512,17 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
+<<<<<<< HEAD
 						"translation.y": 3009.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+=======
+						"translation.y": 15923.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+>>>>>>> 096d329cabb122801b8ec28c101393c2e22057e8
 					"type": "text"
 				}
 			]
@@ -383,7 +556,11 @@
 		"cols":
 		[
 			0.0,
+<<<<<<< HEAD
 			0.53200900335,
+=======
+			0.5,
+>>>>>>> 096d329cabb122801b8ec28c101393c2e22057e8
 			1.0
 		],
 		"rows":
