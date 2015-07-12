@@ -217,14 +217,14 @@ float: left;
 }
 
 #levyLogoDiv {
+	margin: 0 auto;
 	height: 320px;
 }
 
 #levyLogo {
-	margin-top: 0;
+	margin: 0 auto;
 	height: 260px;
 }
-
 
 #jobBoardBarDiv {
 	height: auto;
@@ -262,13 +262,6 @@ float: left;
 }
 
 .SkillITText p {font-size: 13px;}
-
-#levyLogoDiv {
-	left: 50%;
-	padding-left: -281px;
-	margin-top: -40px;
-
-}
 
 #whatWeDoText {
 	padding-bottom: 20px;
