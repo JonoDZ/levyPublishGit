@@ -213,6 +213,15 @@ float: left;
 }
 
 #levyLogoDiv {
+<<<<<<< HEAD
+	margin: 0 auto;
+	height: 320px;
+}
+
+#levyLogo {
+	margin: 0 auto;
+	height: 260px;
+=======
 	position: absolute;
 	height: auto;
 	width: 100%;
@@ -224,6 +233,7 @@ float: left;
 	margin-left: -195px;
 	margin-top: 0;
 	width: 390px;
+>>>>>>> 096d329cabb122801b8ec28c101393c2e22057e8
 }
 
 #jobBoardBarDiv {
