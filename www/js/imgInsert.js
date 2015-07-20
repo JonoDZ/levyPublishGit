@@ -38,9 +38,10 @@ var list = document.getElementById("banner_area");
 		list.children[i].style.height = windowHeightString;
 		list.children[i].style.width = imgNewWidth;
 	}
-	/*  list.style.height = windowHeight;
-	    list.style.width = imgNaturalWidth * imgRatio; */
 
+	else {
+		console.log("imgInsert failed");
+	}
 
 	};
 };
