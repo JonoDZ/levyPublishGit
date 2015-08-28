@@ -7,7 +7,8 @@ var list = document.getElementById("banner_area");
 
 	var elementChildren = list.children;
 	for (var i = 0; i < list.children.length; i++) {
-	    
+	
+	
 	var windowWidth = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
 	var windowHeight = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
 	var windowHeightString = windowHeight.toString() + "px";
@@ -38,9 +39,10 @@ var list = document.getElementById("banner_area");
 		list.children[i].style.height = windowHeightString;
 		list.children[i].style.width = imgNewWidth;
 	}
-	/*  list.style.height = windowHeight;
-	    list.style.width = imgNaturalWidth * imgRatio; */
 
+	else {
+		console.log("imgInsert failed");
+	}
 
 	};
 };
